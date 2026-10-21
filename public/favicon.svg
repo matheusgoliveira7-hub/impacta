@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fundo com cantos arredondados no Azul Cobalto da Marca -->
+  <rect width="64" height="64" rx="16" fill="#0067DE"/>
+  
+  <!-- Estrelinhas/brilho no fundo -->
+  <circle cx="15" cy="18" r="1.5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="51" cy="48" r="1.5" fill="#FE5F04" opacity="0.8"/>
+  <polygon points="48,16 50,21 55,21 51,24 53,29 48,26 44,29 46,24 42,21 47,21" fill="#FFC107" transform="scale(0.4) translate(70, 10)"/>
+
+  <!-- Foguetinho IMPACTA estilizado (inclinado a 45 graus) -->
+  <g transform="translate(32, 32) rotate(45) translate(-16, -24)">
+    <!-- Chama de propulsão -->
+    <path d="M12 36 C10 42 16 48 16 48 C16 48 22 42 20 36 Z" fill="#FE5F04"/>
+    <path d="M13.5 36 C12.5 40 16 44 16 44 C16 44 19.5 40 18.5 36 Z" fill="#FFC107"/>
+    
+    <!-- Aletas laterais em Carmim -->
+    <path d="M8 28 C5 34 5 37 7 38 C9 39 12 36 12 33 Z" fill="#BD1828"/>
+    <path d="M24 28 C27 34 27 37 25 38 C23 39 20 36 20 33 Z" fill="#BD1828"/>
+    
+    <!-- Corpo do Foguete em Branco Puro -->
+    <path d="M16 4 C10 12 9 26 10 35 L22 35 C23 26 22 12 16 4 Z" fill="#FFFFFF"/>
+    
+    <!-- Nariz/Bico em Carmim da Marca -->
+    <path d="M16 4 C13 9 11.5 14 11 16 L21 16 C20.5 14 19 9 16 4 Z" fill="#BD1828"/>
+    
+    <!-- Janela Circular / Porthole em Turquesa -->
+    <circle cx="16" cy="22" r="4.5" fill="#00A8CC"/>
+    <circle cx="16" cy="22" r="3.2" fill="#E0F7FA"/>
+    <circle cx="14.8" cy="20.8" r="1.2" fill="#FFFFFF"/>
+  </g>
+</svg>

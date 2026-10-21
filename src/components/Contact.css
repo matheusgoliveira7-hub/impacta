@@ -1,0 +1,187 @@
+.contact-section {
+  padding-top: 3.25rem;
+  padding-bottom: 3.5rem;
+  background-color: var(--bg-page);
+  border-top: 1px solid var(--border-light);
+}
+
+@media (min-width: 768px) {
+  .contact-section {
+    padding-top: 4rem;
+    padding-bottom: 4.25rem;
+  }
+}
+
+.contact-box-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-box {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.25rem;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  .contact-box {
+    padding: 2.25rem 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-box {
+    padding: 2.75rem 2.5rem;
+  }
+}
+
+.contact-title {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  color: var(--text-main);
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .contact-title {
+    font-size: 2.125rem;
+  }
+}
+
+.contact-lead {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-width: 620px;
+  margin: 0 auto 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .contact-lead {
+    font-size: 1.0625rem;
+  }
+}
+
+/* Card de Status Informativo */
+.contact-status-card {
+  background-color: var(--brand-orange-subtle);
+  border: 1px solid var(--brand-orange-border);
+  border-left: 4px solid var(--brand-orange);
+  border-radius: var(--radius-md);
+  padding: 1.5rem 1.25rem;
+  text-align: left;
+}
+
+@media (min-width: 640px) {
+  .contact-status-card {
+    padding: 1.75rem 1.5rem;
+  }
+}
+
+.status-notice-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+}
+
+.status-icon {
+  color: var(--brand-orange);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.status-notice-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.status-notice-text strong {
+  color: var(--text-main);
+  font-size: 0.95rem;
+}
+
+/* Card de E-mail (quando configurado) */
+.email-display-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.75rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 640px) {
+  .email-display-card {
+    padding: 2rem 1.75rem;
+    gap: 1.5rem;
+  }
+}
+
+.email-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.email-label {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.email-address {
+  font-family: monospace;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--brand-blue);
+  background-color: var(--bg-alt);
+  padding: 0.4rem 0.875rem;
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--brand-blue-border);
+  word-break: break-all;
+}
+
+@media (min-width: 480px) {
+  .email-address {
+    font-size: 1.1875rem;
+    padding: 0.4rem 1rem;
+  }
+}
+
+.email-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-email,
+.btn-copy {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .btn-email,
+  .btn-copy {
+    width: auto;
+  }
+  .btn-email {
+    min-width: 190px;
+  }
+  .btn-copy {
+    min-width: 150px;
+  }
+}

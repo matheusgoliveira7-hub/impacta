@@ -1,0 +1,156 @@
+.about-section {
+  position: relative;
+}
+
+.about-fundaments-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+@media (min-width: 860px) {
+  .about-fundaments-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+.about-fundament-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  padding: 1.75rem 1.25rem;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 480px) {
+  .about-fundament-card {
+    padding: 2.25rem 1.75rem;
+  }
+}
+
+.about-fundament-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--brand-blue-border);
+  box-shadow: var(--shadow-md);
+}
+
+.fundament-num {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: var(--radius-sm);
+}
+
+.about-fundament-card:nth-child(1) .fundament-num {
+  background-color: var(--brand-blue-subtle);
+  color: var(--brand-blue);
+  border: 1px solid var(--brand-blue-border);
+}
+
+.about-fundament-card:nth-child(2) .fundament-num {
+  background-color: var(--brand-orange-subtle);
+  color: var(--brand-orange-hover);
+  border: 1px solid var(--brand-orange-border);
+}
+
+.about-fundament-card:nth-child(3) .fundament-num {
+  background-color: var(--brand-red-subtle);
+  color: var(--brand-red);
+  border: 1px solid var(--brand-red-border);
+}
+
+.fundament-title {
+  font-size: 1.25rem;
+  line-height: 1.35;
+  color: var(--brand-primary);
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 480px) {
+  .fundament-title {
+    font-size: 1.35rem;
+  }
+}
+
+.fundament-desc {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+/* Princípios Orientadores */
+.about-principles-wrapper {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 2rem 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 640px) {
+  .about-principles-wrapper {
+    padding: 2.75rem 2.25rem;
+  }
+}
+
+.principles-section-title {
+  font-size: 1.375rem;
+  color: var(--brand-primary);
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .principles-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .principles-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.principle-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.principle-name {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--brand-primary);
+}
+
+.principle-desc {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.principles-note {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--border-light);
+}

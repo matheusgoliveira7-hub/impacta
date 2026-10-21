@@ -1,0 +1,63 @@
+.challenge-section {
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+  background-color: var(--bg-surface);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+@media (min-width: 768px) {
+  .challenge-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.challenge-section .section-header {
+  margin-bottom: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .challenge-section .section-header {
+    margin-bottom: 2.25rem;
+  }
+}
+
+.section-lead-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  margin-top: 0.35rem;
+}
+
+/* Cartão de Destaque */
+.challenge-highlight-card {
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border-light);
+  border-left: 4px solid var(--brand-accent);
+  padding: 1.75rem 1.5rem;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  max-width: 860px;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 640px) {
+  .challenge-highlight-card {
+    padding: 2.25rem 2.5rem;
+  }
+}
+
+.highlight-statement {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--text-main);
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .highlight-statement {
+    font-size: 1.45rem;
+  }
+}

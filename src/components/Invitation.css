@@ -1,0 +1,70 @@
+.invitation-section {
+  background-color: var(--bg-surface);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+/* Bloco de Alinhamento e Contato */
+.invitation-alignment-box {
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.75rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 640px) {
+  .invitation-alignment-box {
+    padding: 2.25rem 2rem;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 860px) {
+  .invitation-alignment-box {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 2.75rem;
+  }
+}
+
+.alignment-content {
+  max-width: 680px;
+}
+
+.alignment-title {
+  font-size: 1.25rem;
+  color: var(--text-main);
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 480px) {
+  .alignment-title {
+    font-size: 1.35rem;
+  }
+}
+
+.alignment-desc {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.alignment-cta {
+  flex-shrink: 0;
+}
+
+.w-full-mobile {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .w-full-mobile {
+    width: auto;
+  }
+}
